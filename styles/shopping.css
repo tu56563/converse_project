@@ -1,0 +1,236 @@
+header {
+    width: 100%;
+}
+header .top_box {
+    background: #000;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header .top_box .event a {
+    color: #fff;
+}
+/* ================================= */
+header .btm_box {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header .btm_box .logo {}
+header .btm_box .logo h1 {}
+header .btm_box .logo h1 img {}
+header .btm_box nav {}
+header .btm_box nav a {
+    padding: 0 12px;
+    font-weight: 700;
+}
+header .btm_box nav a span {
+    font-weight: 700;
+    color: #ff0000;
+}
+header .btm_box .icon {}
+header .btm_box .icon a {
+    padding: 0 5px;
+}
+header .btm_box .icon a img {}
+/* ================================= */
+main {}
+main #contents {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 0;
+    min-height: 880px;
+}
+main #contents .order_list {
+    flex-basis: 56.7%;
+    padding: 0 16px 0 0;
+}
+main #contents .order_list .subname {
+    border-bottom: 1px solid #e5e5e5;
+    height: 50px;
+}
+main #contents .order_list .subname h2 {
+    font-size: 1.125rem;
+    color: #444;
+    font-weight: 600;
+}
+main #contents .order_list .subtext {
+    padding: 160px 0 100px;
+    font-size: 14px;
+    text-align: center;
+}
+main #contents .order_list .subtext h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+}
+main #contents .order_list .subtext p {
+    margin: 15px auto;
+}
+main #contents .order_list .subtext a {
+    display: block;
+    max-width: 330px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 600;
+    margin: 30px auto 0;
+    text-align: center;
+}
+/* ================================= */
+main #contents .order_list .recom {}
+main #contents .order_list .recom h2 {
+    font-size: 1.125rem;
+    color: #444;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+main #contents .order_list .recom .product {
+    border: 1px solid #e5e5e5;
+    padding: 20px 15px;
+}
+main #contents .order_list .recom .product .prdbox {
+    width: 100%;
+    display: flex;
+    
+}
+main #contents .order_list .recom .product .prdbox .thumnail {}
+main #contents .order_list .recom .product .prdbox .thumnail a {}
+main #contents .order_list .recom .product .prdbox .thumnail a img {
+    width: 100px;
+}
+main #contents .order_list .recom .product .prdbox .text_box {
+    float: left;
+    width: 70%;
+    margin-left: 50px;
+}
+main #contents .order_list .recom .product .prdbox .text_box .text {}
+main #contents .order_list .recom .product .prdbox .text_box .prdname {}
+main #contents .order_list .recom .product .prdbox .text_box .prdname a {
+    font-weight: 600;
+}
+main #contents .order_list .recom .product .prdbox .text_box .cart {
+    margin-top: 10px;
+}
+main #contents .order_list .recom .product .prdbox .text_box .cart li {}
+main #contents .order_list .recom .product .prdbox .text_box .wish {
+    margin-top: 30px;
+}
+main #contents .order_list .recom .product .prdbox .text_box .wish a {}
+main #contents .order_list .recom .product .prdbox .text_box .wish a span {}
+main #contents .order_list .recom .product .prdbox .text_price {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+/* ============================== */
+.cboth {
+    clear: both;
+}
+footer {
+    margin: 50px auto 0;
+    border-top: 1px solid #e5e5e5;
+    -webkit-box-sizing: border-box;
+    background-color: #000;
+}
+footer .white {
+    background-color: #fff;
+}
+footer .white .width1440 {
+    display: flex;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0 auto;
+}
+footer .white .width1440 .bt_box {
+    width: 20%;
+    min-height: 161px;
+    float: left;
+    border-left: 1px solid #e5e5e5;
+}
+footer .white .width1440 .bt_box:first-child {
+    border: 0;
+}
+footer .white .width1440 .bt_box .bt_box_inner {
+    padding: 30px 0 30px 40px;
+}
+footer .white .width1440 .bt_box .bt_box_inner h2 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+footer .white .width1440 .bt_box .bt_box_inner .bt_box_sns {}
+footer .white .width1440 .bt_box .bt_box_inner .bt_box_sns a {
+    border: 1px solid #e5e5e5;
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+footer .white .width1440 .bt_box .bt_box_inner .bt_box_sns a:first-child {
+    border-right: 0;
+}
+footer .white .width1440 .bt_box .bt_box_inner .bt_box_sns a img {}
+footer .white .width1440 .bt_box .bt_box_inner ul {}
+footer .white .width1440 .bt_box .bt_box_inner ul li {}
+footer .white .width1440 .bt_box .bt_box_inner ul li a {
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 6px 0;
+    color: #757575;
+}
+/* ========================================== */
+footer .black {
+    margin: 0 auto;
+    padding: 40px;
+    color: #9b9b9b;
+}
+footer .black .width1440 {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+}
+footer .black .black_left {
+    max-width: 705px;
+    line-height: 1.3rem;
+    font-size: 0.75rem;
+}
+footer .black .black_left .company_name a {
+    color: #9b9b9b;
+}
+footer .black .black_left span {
+    display: inline-block;
+    vertical-align: top;
+}
+footer .black .black_left span a {
+    color: #fff;
+}
+footer .black .black_left .copyright {
+    margin: 22px 0
+}
+footer .black .black_right {
+    max-width: 374px;
+    line-height: 1.3rem;
+    font-size: 0.75rem;
+}
+footer .black .black_right a {
+    display: block;
+    color: #fff;
+}
+.big {
+    display: block;
+}
